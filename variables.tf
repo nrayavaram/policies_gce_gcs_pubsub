@@ -8,25 +8,25 @@ variable "access_token" {
 variable "service_account_id" {
   description = "service_account_id"
   type        = string
-  default = "wells-fargo-sa"
+  default = "wf-naresh"
 }
 
 variable "service_account_name" {
   description = "service_account_name"
   type        = string
-  default = "Wells Fargo"
+  default = "wf-google"
 }
 
 variable "zone" {
   description = "zone"
   type        = string
-  default = "us-east1-b"
+  default = "us-central1-b"
 }
 
 variable "compute_instance_name" {
   description = "compute_instance_name"
   type        = string
-  default = "wells-fargo-ce"
+  default = "wf-google-ce"
 }
 
 variable "machine_type" {
@@ -57,19 +57,19 @@ variable "kms_key_self_link" {
 variable "project_id" {
   description = "project_id"
   type        = string
-  default = "airline1-sabre-wolverine"
+  default = "manifest-access-320809"
 }
 
 variable "storage_name" {
   description = "storage_name"
   type        = string
-  default = "savita-11"
+  default = "wf-google-sb"
 }
 
 variable "storage_location" {
   description = "storage_location"
   type        = string
-  default = "EU"
+  default = "US"
 }
 
 variable "force_destroy" {
@@ -81,11 +81,11 @@ variable "force_destroy" {
 variable "key_storage_name" {
   description = "key_storage_name"
   type        = string
-  default = "savita-key11"
+  default = "wf-google-sb_key"
 }
 
 variable "pubsub_topic_name" {
   description = "pubsub_topic_name"
   type        = string
-  default = "example-topic"
+  default = "wf-google-topic"
 }
