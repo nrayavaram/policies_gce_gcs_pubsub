@@ -22,8 +22,8 @@ resource "google_compute_instance" "default" {
       image = var.machine_image
     }
 
-    disk_encryption_key_raw = var.disk_encryption_key_raw
-    kms_key_self_link = var.kms_key_self_link
+ #   disk_encryption_key_raw = var.disk_encryption_key_raw
+ #   kms_key_self_link = var.kms_key_self_link
   }
 
   // Local SSD disk
