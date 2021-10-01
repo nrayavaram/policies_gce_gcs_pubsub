@@ -41,18 +41,7 @@ variable "machine_image" {
   default = "debian-cloud/debian-9"
 }
 
-variable "disk_encryption_key_raw" {
-  description = "disk_encryption_key_raw"
-  type        = string
-  default = null
-}
 
-variable "kms_key_self_link" {
-  description = "kms_key_self_link"
-  type        = string
-  #default = "projects/airline1-sabre-wolverine/locations/us-east1/keyRings/savita-keyring1/cryptoKeys/savita-key11"
-  default = null
-}
 
 variable "project_id" {
   description = "project_id"
