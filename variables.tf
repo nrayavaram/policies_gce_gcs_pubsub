@@ -1,9 +1,9 @@
 variable "access_token" {
-  description = "access_token"
+  description = "access token"
   type        = string
   sensitive   = true
-  default = "ya29.a0ARrdaM-xhYmeKMJ3z2kjTtQq6T6EXBX60gvF9UksBNDEeqDmOi1g5CfLY58hhcbchxno8Kxp-t_PGIRQ3_WPJtAiyqL8eCgmCeWLK0UUTYFOvozaN6PCXlE3dGG2ejk5FayJlMNUGo4UC_PgaL2HwlycZAINnWneqOKG5g"
 }
+
 
 variable "service_account_id" {
   description = "service_account_id"
