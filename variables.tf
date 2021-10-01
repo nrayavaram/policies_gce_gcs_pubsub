@@ -63,7 +63,7 @@ variable "project_id" {
 variable "storage_name" {
   description = "storage_name"
   type        = string
-  default = "wf-google-sb"
+  default = "wf-google-s_b"
 }
 
 variable "storage_location" {
