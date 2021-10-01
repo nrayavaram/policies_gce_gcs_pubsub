@@ -41,8 +41,6 @@ variable "machine_image" {
   default = "debian-cloud/debian-9"
 }
 
-
-
 variable "project_id" {
   description = "project_id"
   type        = string
